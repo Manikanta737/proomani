@@ -17,7 +17,7 @@ public class MyClient {
 
 			// Creating Socket class object and
 			// initializing Socket
-			Socket soc = new Socket("localhost", 6666);
+			Socket soc = new Socket("localhost", 7777);
 
 			DataOutputStream d = new DataOutputStream(
 				soc.getOutputStream());
